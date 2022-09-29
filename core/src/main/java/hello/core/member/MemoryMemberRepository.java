@@ -1,8 +1,11 @@
 package hello.core.member;
 
+import org.springframework.stereotype.Component;
+
 import java.util.HashMap;
 import java.util.Map;
 
+@Component
 public class MemoryMemberRepository implements MemberRepository{
 
     //멀티 쓰레드 환경에서는 ConcurrentHashMap을 사용해야 한다.(쓰기 작업시 Lock을 획득하여 동시에 진행하지 못하게 함)
