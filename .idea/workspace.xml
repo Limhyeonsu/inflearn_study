@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc03fbf9-52fa-49d5-9004-089f76634a50" name="Changes" comment="스프링 핵심 원리 이해 2 - 의존관계 자동주입(1)">
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/annotation/MainDiscountPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/autowired/AllBeanTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="dc03fbf9-52fa-49d5-9004-089f76634a50" name="Changes" comment="스프링 핵심 원리 이해 2 - 의존관계 자동주입(2)">
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/lifecycle/BeanLifeCycleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/lifecycle/NetworkClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/02.스프링핵심원리.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/02.스프링핵심원리.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/hello/core/discount/FixDiscountPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/discount/FixDiscountPolicy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/hello/core/discount/RateDiscountPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/discount/RateDiscountPolicy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/hello/core/order/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/order/OrderServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +89,7 @@
       <recent name="hello.core.discount" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AllBeanTest">
+  <component name="RunManager" selected="JUnit.BeanLifeCycleTest">
     <configuration name="All in core.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -103,14 +99,6 @@
       </method>
     </configuration>
     <configuration name="All in core.test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in core.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -148,6 +136,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BeanLifeCycleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.lifecycle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.lifecycle" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.lifecycle.BeanLifeCycleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-11" />
@@ -158,20 +161,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.BeanLifeCycleTest" />
       <item itemvalue="JUnit.All in core.test (1)" />
       <item itemvalue="JUnit.All in core.test (2)" />
       <item itemvalue="JUnit.AllBeanTest" />
-      <item itemvalue="JUnit.All in core.test" />
       <item itemvalue="JUnit.AutowiredTest" />
       <item itemvalue="Spring Boot.CoreApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BeanLifeCycleTest" />
         <item itemvalue="JUnit.AllBeanTest" />
         <item itemvalue="JUnit.All in core.test (2)" />
         <item itemvalue="JUnit.All in core.test (1)" />
         <item itemvalue="JUnit.AutowiredTest" />
-        <item itemvalue="JUnit.All in core.test" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +194,9 @@
       <workItem from="1664097609624" duration="5548000" />
       <workItem from="1664172860076" duration="11533000" />
       <workItem from="1664260027210" duration="27235000" />
-      <workItem from="1664805646016" duration="1434000" />
+      <workItem from="1664805646016" duration="1960000" />
+      <workItem from="1664862984888" duration="16000" />
+      <workItem from="1664863235301" duration="4090000" />
     </task>
     <task id="LOCAL-00001" summary="스프링 핵심 원리 이해 2 - 객체지향 원리 적용 (SRP, DIP, OCP)">
       <created>1663926512408</created>
@@ -249,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664722223246</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="스프링 핵심 원리 이해 2 - 의존관계 자동주입(2)">
+      <created>1664807604178</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664807604178</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,6 +287,7 @@
     <MESSAGE value="스프링 핵심 원리 이해 2 - 싱글톤 컨테이너" />
     <MESSAGE value="스프링 핵심 원리 이해 2 - 컴포넌트 스캔" />
     <MESSAGE value="스프링 핵심 원리 이해 2 - 의존관계 자동주입(1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="스프링 핵심 원리 이해 2 - 의존관계 자동주입(1)" />
+    <MESSAGE value="스프링 핵심 원리 이해 2 - 의존관계 자동주입(2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="스프링 핵심 원리 이해 2 - 의존관계 자동주입(2)" />
   </component>
 </project>
