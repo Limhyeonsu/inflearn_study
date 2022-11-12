@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc03fbf9-52fa-49d5-9004-089f76634a50" name="Changes" comment="HTTP 웹 기본 지 - HTTP 헤더(2)">
+    <list default="true" id="dc03fbf9-52fa-49d5-9004-089f76634a50" name="Changes" comment="img 엑박 수정 &gt; 경로 수정 누락부분이 있어 수정함">
       <change afterPath="$PROJECT_DIR$/core/04.스프링 MVC 1편 백엔드 웹 개발 활용 기술.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/03.모든 개발자를 위한 HTTP 웹 기본 지식.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/03.모든 개발자를 위한 HTTP 웹 기본 지식.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/img/HTTP메시지구조.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/img/HTTP메시지구조.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/img/HTTP메시지전송.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/img/HTTP메시지전송.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/img/HTTP요청메시지.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/img/HTTP요청메시지.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/img/HTTP응답메시지.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/img/HTTP응답메시지.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/img/같은IP내에서프로세스구분.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/img/같은IP내에서프로세스구분.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/img/계층별역할.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/img/계층별역할.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +232,8 @@
       <workItem from="1666849616613" duration="389000" />
       <workItem from="1666879858089" duration="599000" />
       <workItem from="1668084895942" duration="1310000" />
-      <workItem from="1668086216755" duration="100000" />
+      <workItem from="1668086216755" duration="1650000" />
+      <workItem from="1668263096691" duration="1315000" />
     </task>
     <task id="LOCAL-00001" summary="스프링 핵심 원리 이해 2 - 객체지향 원리 적용 (SRP, DIP, OCP)">
       <created>1663926512408</created>
@@ -361,7 +354,49 @@
       <option name="project" value="LOCAL" />
       <updated>1666099815464</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="img 엑박 수정 test : img 폴더 경로 변경 &gt; src 하위로 이동">
+      <created>1668086358992</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1668086358992</updated>
+    </task>
+    <task id="LOCAL-00019" summary="img 엑박 수정 test : img 경로 수정 (git 경로로)">
+      <created>1668086529696</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1668086529696</updated>
+    </task>
+    <task id="LOCAL-00020" summary="img 엑박 수정 test : md 파일을 core &gt; src 하위 경로로 이동">
+      <created>1668086773693</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1668086773693</updated>
+    </task>
+    <task id="LOCAL-00021" summary="img 엑박 수정 test : img 파일 경로 수정 최종">
+      <created>1668086940400</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1668086940400</updated>
+    </task>
+    <task id="LOCAL-00022" summary="링크 경로 수정&#10;- 이미지 엑박 뜨는 현상으로 인하여 md 파일 위치를 core/src/ 밑으로 이동시킴에 따라 링크 경로 수정">
+      <created>1668087009727</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1668087009727</updated>
+    </task>
+    <task id="LOCAL-00023" summary="img 엑박 수정 &gt; 경로 수정 누락부분이 있어 수정함">
+      <created>1668087197526</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1668087197526</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,6 +431,12 @@
     <MESSAGE value="HTTP 웹 기본 지 - HTTP API 설계 예시, 3-6. HTTP 상태코드" />
     <MESSAGE value="HTTP 웹 기본 지 - HTTP 상태코드(4xx, 5xx), HTTP 헤더(1)" />
     <MESSAGE value="HTTP 웹 기본 지 - HTTP 헤더(2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="HTTP 웹 기본 지 - HTTP 헤더(2)" />
+    <MESSAGE value="img 엑박 수정 test : img 폴더 경로 변경 &gt; src 하위로 이동" />
+    <MESSAGE value="img 엑박 수정 test : img 경로 수정 (git 경로로)" />
+    <MESSAGE value="img 엑박 수정 test : md 파일을 core &gt; src 하위 경로로 이동" />
+    <MESSAGE value="img 엑박 수정 test : img 파일 경로 수정 최종" />
+    <MESSAGE value="링크 경로 수정&#10;- 이미지 엑박 뜨는 현상으로 인하여 md 파일 위치를 core/src/ 밑으로 이동시킴에 따라 링크 경로 수정" />
+    <MESSAGE value="img 엑박 수정 &gt; 경로 수정 누락부분이 있어 수정함" />
+    <option name="LAST_COMMIT_MESSAGE" value="img 엑박 수정 &gt; 경로 수정 누락부분이 있어 수정함" />
   </component>
 </project>
