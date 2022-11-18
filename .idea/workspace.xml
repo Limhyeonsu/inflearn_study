@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc03fbf9-52fa-49d5-9004-089f76634a50" name="Changes" comment="img 엑박 수정 &gt; 경로 수정 누락부분이 있어 수정함">
-      <change afterPath="$PROJECT_DIR$/core/04.스프링 MVC 1편 백엔드 웹 개발 활용 기술.md" afterDir="false" />
+    <list default="true" id="dc03fbf9-52fa-49d5-9004-089f76634a50" name="Changes" comment="스프링 MVC 1편 - 멀티 쓰레드, HTML, HTTP API, 백엔드 기술의 역사">
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/request/RequestHeaderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/resources/static/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/04.스프링 MVC 1편 백엔드 웹 개발 활용 기술.md" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/04.스프링 MVC 1편 백엔드 웹 개발 활용 기술.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,13 +27,24 @@
     <projectState path="$PROJECT_DIR$/core">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/core/serlvet">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/servlet">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="servlet" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -53,32 +74,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/dlagustn720/Documents/programming/inflearn&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;1d2dfe7cbec4cb85764de7dce500cd05&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "corretto-11",
+    "last_opened_file_path": "/Users/dlagustn720/Documents/programming/inflearn",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "spring.configuration.checksum": "0f5a2b712932163eca5ae20a7604e82c"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="hello.core.logdemo" />
@@ -90,6 +111,8 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/servlet/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/servlet/src" />
       <recent name="$PROJECT_DIR$/core/src" />
       <recent name="$PROJECT_DIR$/core/src/main/resources" />
     </key>
@@ -97,7 +120,7 @@
       <recent name="hello.core.discount" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.CoreApplication">
+  <component name="RunManager" selected="Spring Boot.ServletApplication">
     <configuration name="BeanLifeCycleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
@@ -183,12 +206,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServletApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="servlet.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.servlet.ServletApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.SingletonWithPrototypeTest1.singletonClientUsePrototype" />
       <item itemvalue="JUnit.BeanLifeCycleTest" />
       <item itemvalue="JUnit.PrototypeTest" />
       <item itemvalue="JUnit.SingletonTest" />
       <item itemvalue="JUnit.SingletonWithPrototypeTest1" />
+      <item itemvalue="Spring Boot.ServletApplication" />
       <item itemvalue="Spring Boot.CoreApplication" />
     </list>
     <recent_temporary>
@@ -233,7 +264,10 @@
       <workItem from="1666879858089" duration="599000" />
       <workItem from="1668084895942" duration="1310000" />
       <workItem from="1668086216755" duration="1650000" />
-      <workItem from="1668263096691" duration="1315000" />
+      <workItem from="1668263096691" duration="5212000" />
+      <workItem from="1668774634970" duration="291000" />
+      <workItem from="1668774932838" duration="3977000" />
+      <workItem from="1668779007285" duration="1914000" />
     </task>
     <task id="LOCAL-00001" summary="스프링 핵심 원리 이해 2 - 객체지향 원리 적용 (SRP, DIP, OCP)">
       <created>1663926512408</created>
@@ -396,7 +430,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668087197526</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="스프링 MVC 1편 - 웹서버, WAS, 서블릿">
+      <created>1668265159335</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1668265159336</updated>
+    </task>
+    <task id="LOCAL-00025" summary="스프링 MVC 1편 - 멀티 쓰레드, HTML, HTTP API, 백엔드 기술의 역사">
+      <created>1668347145384</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1668347145384</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -437,6 +485,12 @@
     <MESSAGE value="img 엑박 수정 test : img 파일 경로 수정 최종" />
     <MESSAGE value="링크 경로 수정&#10;- 이미지 엑박 뜨는 현상으로 인하여 md 파일 위치를 core/src/ 밑으로 이동시킴에 따라 링크 경로 수정" />
     <MESSAGE value="img 엑박 수정 &gt; 경로 수정 누락부분이 있어 수정함" />
-    <option name="LAST_COMMIT_MESSAGE" value="img 엑박 수정 &gt; 경로 수정 누락부분이 있어 수정함" />
+    <MESSAGE value="스프링 MVC 1편 - 웹서버, WAS, 서블릿" />
+    <MESSAGE value="스프링 MVC 1편 - 멀티 쓰레드, HTML, HTTP API, 백엔드 기술의 역사" />
+    <option name="LAST_COMMIT_MESSAGE" value="스프링 MVC 1편 - 멀티 쓰레드, HTML, HTTP API, 백엔드 기술의 역사" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
