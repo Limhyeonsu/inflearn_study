@@ -7,7 +7,7 @@
 ## [03. 모든 개발자를 위한 HTTP 웹 기본 지식](https://github.com/Limhyeonsu/inflearn_study/blob/main/core/src/03.%EB%AA%A8%EB%93%A0%20%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC%20%EC%9C%84%ED%95%9C%20HTTP%20%EC%9B%B9%20%EA%B8%B0%EB%B3%B8%20%EC%A7%80%EC%8B%9D.md)
 core 하위에 정리함
 
-## [04. 스프링 MVC 1편 - 백엔드 웹 개발 핵심 기술]
+## [04. 스프링 MVC 1편 - 백엔드 웹 개발 핵심 기술](https://github.com/Limhyeonsu/inflearn_study/blob/main/servlet/src/04.%EC%8A%A4%ED%94%84%EB%A7%81%20MVC%201%ED%8E%B8%20%EB%B0%B1%EC%97%94%EB%93%9C%20%EC%9B%B9%20%EA%B0%9C%EB%B0%9C%20%ED%99%9C%EC%9A%A9%20%EA%B8%B0%EC%88%A0.md)
 * servlet
 
 ## 05. 스프링 MVC 2편 - 백엔드 웹 개발 활용 기술
