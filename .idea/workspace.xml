@@ -4,19 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc03fbf9-52fa-49d5-9004-089f76634a50" name="Changes" comment="스프링 MVC 1편 - 멀티 쓰레드, HTML, HTTP API, 백엔드 기술의 역사">
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/request/RequestHeaderServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/resources/static/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/resources/static/index.html" afterDir="false" />
+    <list default="true" id="dc03fbf9-52fa-49d5-9004-089f76634a50" name="Changes" comment="스프링 MVC 1편 - 서블릿(1)">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/jpashop.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/servlet.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/01. 실전! 스프링부트와 JPA 활용1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/resources/templates/hello.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/04.스프링 MVC 1편 백엔드 웹 개발 활용 기술.md" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/04.스프링 MVC 1편 백엔드 웹 개발 활용 기술.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/04.스프링 MVC 1편 백엔드 웹 개발 활용 기술.md" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/04.스프링 MVC 1편 백엔드 웹 개발 활용 기술.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +29,9 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/core/serlvet">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/jpashop">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/servlet">
@@ -60,6 +64,7 @@
         <option value="spring-beans.schema" />
         <option value="AnnotationType" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -76,6 +81,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -97,7 +103,8 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.keymap",
-    "spring.configuration.checksum": "0f5a2b712932163eca5ae20a7604e82c"
+    "spring.configuration.checksum": "2dc28b578ed6f9f46dc54a852b808dbb",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -120,7 +127,7 @@
       <recent name="hello.core.discount" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServletApplication">
+  <component name="RunManager" selected="Spring Boot.JpashopApplication">
     <configuration name="BeanLifeCycleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
@@ -206,6 +213,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JpashopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="jpashop.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="jpabook.jpashop.JpashopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServletApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="servlet.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="hello.servlet.ServletApplication" />
@@ -219,6 +233,7 @@
       <item itemvalue="JUnit.PrototypeTest" />
       <item itemvalue="JUnit.SingletonTest" />
       <item itemvalue="JUnit.SingletonWithPrototypeTest1" />
+      <item itemvalue="Spring Boot.JpashopApplication" />
       <item itemvalue="Spring Boot.ServletApplication" />
       <item itemvalue="Spring Boot.CoreApplication" />
     </list>
@@ -267,7 +282,11 @@
       <workItem from="1668263096691" duration="5212000" />
       <workItem from="1668774634970" duration="291000" />
       <workItem from="1668774932838" duration="3977000" />
-      <workItem from="1668779007285" duration="1914000" />
+      <workItem from="1668779007285" duration="2366000" />
+      <workItem from="1668783915841" duration="253000" />
+      <workItem from="1668845642450" duration="1064000" />
+      <workItem from="1671793272441" duration="340000" />
+      <workItem from="1675084358134" duration="4482000" />
     </task>
     <task id="LOCAL-00001" summary="스프링 핵심 원리 이해 2 - 객체지향 원리 적용 (SRP, DIP, OCP)">
       <created>1663926512408</created>
@@ -444,7 +463,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668347145384</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="스프링 MVC 1편 - 서블릿(1)">
+      <created>1668783486629</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1668783486629</updated>
+    </task>
+    <task id="LOCAL-00027" summary="링크 추가&#10;1) readme - 스프링 MVC1편 정리본 링크 추가&#10;2) HttpServletRequest 기본 사용법 - 예제 클래스와 링크 연결">
+      <created>1668783804543</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1668783804543</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,8 +495,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="스프링 핵심 원리 이해 2 - 객체지향 원리 적용 (SRP, DIP, OCP)" />
-    <MESSAGE value="테스트 케이스 경로 이동" />
     <MESSAGE value="스프링 핵심 원리 이해 2 - IoC, DI, 컨테이너, 스프링으로 전환(1)" />
     <MESSAGE value=".DS_Store gitignore 설정" />
     <MESSAGE value="스프링 핵심 원리 이해 2 - 스프링 컨테이너와 스프링 빈" />
@@ -487,7 +518,20 @@
     <MESSAGE value="img 엑박 수정 &gt; 경로 수정 누락부분이 있어 수정함" />
     <MESSAGE value="스프링 MVC 1편 - 웹서버, WAS, 서블릿" />
     <MESSAGE value="스프링 MVC 1편 - 멀티 쓰레드, HTML, HTTP API, 백엔드 기술의 역사" />
-    <option name="LAST_COMMIT_MESSAGE" value="스프링 MVC 1편 - 멀티 쓰레드, HTML, HTTP API, 백엔드 기술의 역사" />
+    <MESSAGE value="스프링 MVC 1편 - 서블릿(1)" />
+    <MESSAGE value="링크 추가&#10;1) readme - 스프링 MVC1편 정리본 링크 추가&#10;2) HttpServletRequest 기본 사용법 - 예제 클래스와 링크 연결" />
+    <option name="LAST_COMMIT_MESSAGE" value="링크 추가&#10;1) readme - 스프링 MVC1편 정리본 링크 추가&#10;2) HttpServletRequest 기본 사용법 - 예제 클래스와 링크 연결" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/request/RequestHeaderServlet.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

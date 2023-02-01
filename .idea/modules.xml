@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/inflearn.iml" filepath="$PROJECT_DIR$/.idea/inflearn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jpashop.main.iml" filepath="$PROJECT_DIR$/.idea/modules/jpashop.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/servlet.main.iml" filepath="$PROJECT_DIR$/.idea/modules/servlet.main.iml" />
     </modules>
   </component>
 </project>

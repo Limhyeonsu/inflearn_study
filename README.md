@@ -1,4 +1,4 @@
-# 인프런 - [김영한의 Spring 완전정복 로드맵]
+# [김영한의 Spring 완전정복 로드맵]
 ## 01. 스프링 입문
 
 ## [02. 스프링 핵심 원리](https://github.com/Limhyeonsu/inflearn_study/blob/main/core/src/02.%EC%8A%A4%ED%94%84%EB%A7%81%ED%95%B5%EC%8B%AC%EC%9B%90%EB%A6%AC.md)
@@ -11,3 +11,8 @@ core 하위에 정리함
 * servlet
 
 ## 05. 스프링 MVC 2편 - 백엔드 웹 개발 활용 기술
+
+# [JPA]
+## 01. 실전! 스프링부트와 JPA 활용1
+* jpashop
+
