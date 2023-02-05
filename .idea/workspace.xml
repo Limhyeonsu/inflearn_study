@@ -4,20 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc03fbf9-52fa-49d5-9004-089f76634a50" name="Changes" comment="스프링 MVC 1편 - 서블릿(1)">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/jpashop.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/servlet.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpashop/src/01. 실전! 스프링부트와 JPA 활용1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpashop/src/main/resources/templates/hello.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="dc03fbf9-52fa-49d5-9004-089f76634a50" name="Changes" comment="JPA 1편 - 프로젝트 세팅">
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/test/java/jpabook/jpashop/MemberRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/04.스프링 MVC 1편 백엔드 웹 개발 활용 기술.md" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/04.스프링 MVC 1편 백엔드 웹 개발 활용 기술.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/src/01. 실전! 스프링부트와 JPA 활용1.md" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/01. 실전! 스프링부트와 JPA 활용1.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +56,8 @@
         <option value="JUnit5 Test Class" />
         <option value="spring-beans.schema" />
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -127,21 +120,29 @@
       <recent name="hello.core.discount" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.JpashopApplication">
-    <configuration name="BeanLifeCycleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.lifecycle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core.lifecycle" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.lifecycle.BeanLifeCycleTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="Gradle.MemberRepositoryTest.testMember">
+    <configuration name="MemberRepositoryTest.testMember" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/jpashop" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;jpabook.jpashop.MemberRepositoryTest.testMember&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="PrototypeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
@@ -228,8 +229,8 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.MemberRepositoryTest.testMember" />
       <item itemvalue="JUnit.SingletonWithPrototypeTest1.singletonClientUsePrototype" />
-      <item itemvalue="JUnit.BeanLifeCycleTest" />
       <item itemvalue="JUnit.PrototypeTest" />
       <item itemvalue="JUnit.SingletonTest" />
       <item itemvalue="JUnit.SingletonWithPrototypeTest1" />
@@ -239,11 +240,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MemberRepositoryTest.testMember" />
         <item itemvalue="JUnit.SingletonWithPrototypeTest1.singletonClientUsePrototype" />
         <item itemvalue="JUnit.SingletonWithPrototypeTest1" />
         <item itemvalue="JUnit.PrototypeTest" />
         <item itemvalue="JUnit.SingletonTest" />
-        <item itemvalue="JUnit.BeanLifeCycleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +287,7 @@
       <workItem from="1668783915841" duration="253000" />
       <workItem from="1668845642450" duration="1064000" />
       <workItem from="1671793272441" duration="340000" />
-      <workItem from="1675084358134" duration="4482000" />
+      <workItem from="1675084358134" duration="7270000" />
     </task>
     <task id="LOCAL-00001" summary="스프링 핵심 원리 이해 2 - 객체지향 원리 적용 (SRP, DIP, OCP)">
       <created>1663926512408</created>
@@ -477,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668783804543</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="JPA 1편 - 프로젝트 세팅">
+      <created>1675261167401</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1675261167401</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,7 +503,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="스프링 핵심 원리 이해 2 - IoC, DI, 컨테이너, 스프링으로 전환(1)" />
     <MESSAGE value=".DS_Store gitignore 설정" />
     <MESSAGE value="스프링 핵심 원리 이해 2 - 스프링 컨테이너와 스프링 빈" />
     <MESSAGE value="스프링 핵심 원리 이해 2 - 싱글톤 컨테이너" />
@@ -520,7 +527,8 @@
     <MESSAGE value="스프링 MVC 1편 - 멀티 쓰레드, HTML, HTTP API, 백엔드 기술의 역사" />
     <MESSAGE value="스프링 MVC 1편 - 서블릿(1)" />
     <MESSAGE value="링크 추가&#10;1) readme - 스프링 MVC1편 정리본 링크 추가&#10;2) HttpServletRequest 기본 사용법 - 예제 클래스와 링크 연결" />
-    <option name="LAST_COMMIT_MESSAGE" value="링크 추가&#10;1) readme - 스프링 MVC1편 정리본 링크 추가&#10;2) HttpServletRequest 기본 사용법 - 예제 클래스와 링크 연결" />
+    <MESSAGE value="JPA 1편 - 프로젝트 세팅" />
+    <option name="LAST_COMMIT_MESSAGE" value="JPA 1편 - 프로젝트 세팅" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
