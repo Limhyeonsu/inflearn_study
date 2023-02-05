@@ -13,6 +13,6 @@ core 하위에 정리함
 ## 05. 스프링 MVC 2편 - 백엔드 웹 개발 활용 기술
 
 # [JPA]
-## 01. 실전! 스프링부트와 JPA 활용1
+## [01. 실전! 스프링부트와 JPA 활용1](https://github.com/Limhyeonsu/inflearn_study/blob/main/jpashop/src/01.%20%EC%8B%A4%EC%A0%84!%20%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8%EC%99%80%20JPA%20%ED%99%9C%EC%9A%A91.md)
 * jpashop
 
