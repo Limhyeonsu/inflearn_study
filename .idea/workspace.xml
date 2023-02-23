@@ -4,25 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc03fbf9-52fa-49d5-9004-089f76634a50" name="Changes" comment="JPA 1편 - JPA와 DB설정, 동작확인">
-      <change afterPath="$PROJECT_DIR$/jpashop/src/img/엔티티분석.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpashop/src/img/테이블분석.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Delivery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/DeliveryStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/OrderStatus.java" afterDir="false" />
+    <list default="true" id="dc03fbf9-52fa-49d5-9004-089f76634a50" name="Changes" comment="JPA 1편 - 도메인 모델과 테이블 설계, 엔티티 설계 및 개발">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jpashop/src/01. 실전! 스프링부트와 JPA 활용1.md" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/01. 실전! 스프링부트와 JPA 활용1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/Member.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/MemberRepository.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,7 +286,7 @@
       <workItem from="1668845642450" duration="1064000" />
       <workItem from="1671793272441" duration="340000" />
       <workItem from="1675084358134" duration="8161000" />
-      <workItem from="1677066151863" duration="3421000" />
+      <workItem from="1677066151863" duration="4726000" />
     </task>
     <task id="LOCAL-00001" summary="스프링 핵심 원리 이해 2 - 객체지향 원리 적용 (SRP, DIP, OCP)">
       <created>1663926512408</created>
@@ -514,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675593033743</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="JPA 1편 - 도메인 모델과 테이블 설계, 엔티티 설계 및 개발">
+      <created>1677077575581</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1677077575581</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -532,7 +523,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="스프링 핵심 원리 이해 2 - 싱글톤 컨테이너" />
     <MESSAGE value="스프링 핵심 원리 이해 2 - 컴포넌트 스캔" />
     <MESSAGE value="스프링 핵심 원리 이해 2 - 의존관계 자동주입(1)" />
     <MESSAGE value="스프링 핵심 원리 이해 2 - 의존관계 자동주입(2)" />
@@ -557,7 +547,8 @@
     <MESSAGE value="JPA 1편 - 프로젝트 세팅" />
     <MESSAGE value="JPA 1편 - JPA와 DB설정, 동작확인" />
     <MESSAGE value="내용 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="내용 수정" />
+    <MESSAGE value="JPA 1편 - 도메인 모델과 테이블 설계, 엔티티 설계 및 개발" />
+    <option name="LAST_COMMIT_MESSAGE" value="JPA 1편 - 도메인 모델과 테이블 설계, 엔티티 설계 및 개발" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
