@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc03fbf9-52fa-49d5-9004-089f76634a50" name="Changes" comment="JPA 1편 - 엔티티 설계시 주의사항">
-      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/repository/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/service/MemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpashop/src/test/java/jpabook/jpashop/service/MemberServiceTest.java" afterDir="false" />
+    <list default="true" id="dc03fbf9-52fa-49d5-9004-089f76634a50" name="Changes" comment="JPA 1편 - 회원 도메인 개발">
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/exception/NotEnoughStockException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/repository/ItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/service/ItemService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jpashop/src/01. 실전! 스프링부트와 JPA 활용1.md" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/01. 실전! 스프링부트와 JPA 활용1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/test/java/jpabook/jpashop/MemberRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/OrderItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +59,8 @@
         <option value="AnnotationType" />
         <option value="HTML File" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -125,7 +127,7 @@
       <recent name="hello.core.discount" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MemberServiceTest.중복_회원_예외">
+  <component name="RunManager" selected="Gradle.MemberServiceTest">
     <configuration name="MemberRepositoryTest.testMember" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -140,6 +142,29 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;jpabook.jpashop.MemberRepositoryTest.testMember&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MemberServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/jpashop" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;jpabook.jpashop.service.MemberServiceTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -195,21 +220,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SingletonWithPrototypeTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.scope.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core.scope" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.scope.SingletonWithPrototypeTest1" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SingletonWithPrototypeTest1.singletonClientUsePrototype" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
@@ -250,22 +260,22 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.MemberServiceTest" />
       <item itemvalue="Gradle.MemberServiceTest.중복_회원_예외" />
       <item itemvalue="Gradle.MemberServiceTest.회원가입" />
       <item itemvalue="Gradle.MemberRepositoryTest.testMember" />
       <item itemvalue="JUnit.SingletonWithPrototypeTest1.singletonClientUsePrototype" />
-      <item itemvalue="JUnit.SingletonWithPrototypeTest1" />
       <item itemvalue="Spring Boot.JpashopApplication" />
       <item itemvalue="Spring Boot.ServletApplication" />
       <item itemvalue="Spring Boot.CoreApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MemberServiceTest" />
         <item itemvalue="Gradle.MemberServiceTest.중복_회원_예외" />
         <item itemvalue="Gradle.MemberServiceTest.회원가입" />
         <item itemvalue="Gradle.MemberRepositoryTest.testMember" />
         <item itemvalue="JUnit.SingletonWithPrototypeTest1.singletonClientUsePrototype" />
-        <item itemvalue="JUnit.SingletonWithPrototypeTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +319,7 @@
       <workItem from="1668845642450" duration="1064000" />
       <workItem from="1671793272441" duration="340000" />
       <workItem from="1675084358134" duration="8161000" />
-      <workItem from="1677066151863" duration="8569000" />
+      <workItem from="1677066151863" duration="14866000" />
     </task>
     <task id="LOCAL-00001" summary="스프링 핵심 원리 이해 2 - 객체지향 원리 적용 (SRP, DIP, OCP)">
       <created>1663926512408</created>
@@ -535,7 +545,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677161686646</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="JPA 1편 - 회원 도메인 개발">
+      <created>1677248875687</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1677248875687</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,7 +570,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="스프링 핵심 원리 이해 2 - 의존관계 자동주입(1)" />
     <MESSAGE value="스프링 핵심 원리 이해 2 - 의존관계 자동주입(2)" />
     <MESSAGE value="스프링 핵심 원리 이해 2 - 빈 생명주기 콜백" />
     <MESSAGE value="스프링 핵심 원리 이해 2 - 빈 스코프(1) [싱글톤 스코프, 프로토타입 스코프]" />
@@ -578,7 +594,8 @@
     <MESSAGE value="내용 수정" />
     <MESSAGE value="JPA 1편 - 도메인 모델과 테이블 설계, 엔티티 설계 및 개발" />
     <MESSAGE value="JPA 1편 - 엔티티 설계시 주의사항" />
-    <option name="LAST_COMMIT_MESSAGE" value="JPA 1편 - 엔티티 설계시 주의사항" />
+    <MESSAGE value="JPA 1편 - 회원 도메인 개발" />
+    <option name="LAST_COMMIT_MESSAGE" value="JPA 1편 - 회원 도메인 개발" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
