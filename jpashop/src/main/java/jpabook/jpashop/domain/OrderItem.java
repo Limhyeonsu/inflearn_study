@@ -1,6 +1,7 @@
 package jpabook.jpashop.domain;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
@@ -23,6 +24,11 @@ public class OrderItem {
     private Order order; //주문
     private int orderPrice; //주문 가격
     private int count; //주문 수량
+
+    //new OrderItem()을 통해 생성하는 것을 제한한다. OR 클래스 위에 @NoArgsConstructor(access=AccessLevel.PROTECTED) 선언
+    protected OrderItem() {
+
+    }
 
     //생성 메서드
     public static OrderItem createOrderItem(Item item, int orderPrice, int count) {
