@@ -27,7 +27,7 @@ public class ItemRepository {
     }
 
     public List<Item> findAll() {
-        return em.createQuery("select i from i", Item.class).getResultList();
+        return em.createQuery("select i from Item i", Item.class).getResultList();
     }
 
 }
