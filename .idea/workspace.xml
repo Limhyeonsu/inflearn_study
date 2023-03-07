@@ -4,61 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc03fbf9-52fa-49d5-9004-089f76634a50" name="Changes" comment="JPA 1편 - 웹계층 개발(홈화면, 회원등록, 회원 목록)">
-      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/controller/ItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/web/BookForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpashop/src/main/resources/templates/items/createItemForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpashop/src/main/resources/templates/items/itemList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpashop/src/main/resources/templates/items/updateItemForm.html" afterDir="false" />
+    <list default="true" id="dc03fbf9-52fa-49d5-9004-089f76634a50" name="Changes" comment="JPA 1편 - 웹계층 개발(상품)">
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/resources/templates/order/orderForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/resources/templates/order/orderList.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jpashop/src/01. 실전! 스프링부트와 JPA 활용1.md" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/01. 실전! 스프링부트와 JPA 활용1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/repository/ItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/repository/ItemRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-grid.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-grid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-grid.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-grid.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-grid.rtl.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-grid.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-reboot.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-reboot.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-reboot.rtl.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-reboot.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-utilities.css" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-utilities.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-utilities.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-utilities.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-utilities.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-utilities.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-utilities.rtl.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-utilities.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap.rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap.rtl.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap.rtl.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/css/jumbotron-narrow.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.esm.js" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.esm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.esm.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.esm.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.esm.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.esm.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.esm.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.esm.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/static/js/bootstrap.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/resources/templates/fragments/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/service/OrderService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -374,7 +326,7 @@
       <workItem from="1675084358134" duration="8161000" />
       <workItem from="1677066151863" duration="14910000" />
       <workItem from="1677500930934" duration="8286000" />
-      <workItem from="1677767088411" duration="4547000" />
+      <workItem from="1677767088411" duration="6234000" />
     </task>
     <task id="LOCAL-00001" summary="스프링 핵심 원리 이해 2 - 객체지향 원리 적용 (SRP, DIP, OCP)">
       <created>1663926512408</created>
@@ -635,7 +587,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677768458727</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="JPA 1편 - 웹계층 개발(상품)">
+      <created>1678023922377</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1678023922377</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -653,7 +612,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HTTP 웹 기본 지 - 인터넷 통신, HTTP 기본" />
     <MESSAGE value="HTTP 웹 기본 지 - HTTP 메서드" />
     <MESSAGE value="HTTP 웹 기본 지 - HTTP API 설계 예시, 3-6. HTTP 상태코드" />
     <MESSAGE value="HTTP 웹 기본 지 - HTTP 상태코드(4xx, 5xx), HTTP 헤더(1)" />
@@ -678,7 +636,8 @@
     <MESSAGE value="JPA 1편 - 주문 도메인 개발(주문 리포지토리, 서비스, 테스트)" />
     <MESSAGE value="JPA 1편 - 주문 검색 기능 개발" />
     <MESSAGE value="JPA 1편 - 웹계층 개발(홈화면, 회원등록, 회원 목록)" />
-    <option name="LAST_COMMIT_MESSAGE" value="JPA 1편 - 웹계층 개발(홈화면, 회원등록, 회원 목록)" />
+    <MESSAGE value="JPA 1편 - 웹계층 개발(상품)" />
+    <option name="LAST_COMMIT_MESSAGE" value="JPA 1편 - 웹계층 개발(상품)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
