@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc03fbf9-52fa-49d5-9004-089f76634a50" name="Changes" comment="JPA 2편 - API 개발 고급 : 간단한 주문조회 V2~V4">
-      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/api/OrderApiController.java" afterDir="false" />
+    <list default="true" id="dc03fbf9-52fa-49d5-9004-089f76634a50" name="Changes" comment="JPA 2편 - API 개발 고급 - 컬렉션 조회 최적화, V1, V2, V3">
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/repository/order/query/OrderQueryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/repository/order/query/OrderQueryRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/02.실전! 스프링부트와 JPA 활용2.md" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/02.실전! 스프링부트와 JPA 활용2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/repository/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/api/OrderApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/api/OrderApiController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -326,7 +326,7 @@
       <workItem from="1677500930934" duration="8286000" />
       <workItem from="1677767088411" duration="6323000" />
       <workItem from="1678274706301" duration="9948000" />
-      <workItem from="1679321329778" duration="1978000" />
+      <workItem from="1679321329778" duration="6140000" />
     </task>
     <task id="LOCAL-00001" summary="스프링 핵심 원리 이해 2 - 객체지향 원리 적용 (SRP, DIP, OCP)">
       <created>1663926512408</created>
@@ -622,7 +622,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678893825129</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="JPA 2편 - API 개발 고급 - 컬렉션 조회 최적화, V1, V2, V3">
+      <created>1679323794257</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1679323794257</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -640,7 +647,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="img 엑박 수정 test : img 폴더 경로 변경 &gt; src 하위로 이동" />
     <MESSAGE value="img 엑박 수정 test : img 경로 수정 (git 경로로)" />
     <MESSAGE value="img 엑박 수정 test : md 파일을 core &gt; src 하위 경로로 이동" />
     <MESSAGE value="img 엑박 수정 test : img 파일 경로 수정 최종" />
@@ -665,7 +671,8 @@
     <MESSAGE value="JPA 2편 - API 개발 기본" />
     <MESSAGE value="JPA 2편 - API 개발 고급 : 간단한 주문조회 V1 엔티티 직접 노출" />
     <MESSAGE value="JPA 2편 - API 개발 고급 : 간단한 주문조회 V2~V4" />
-    <option name="LAST_COMMIT_MESSAGE" value="JPA 2편 - API 개발 고급 : 간단한 주문조회 V2~V4" />
+    <MESSAGE value="JPA 2편 - API 개발 고급 - 컬렉션 조회 최적화, V1, V2, V3" />
+    <option name="LAST_COMMIT_MESSAGE" value="JPA 2편 - API 개발 고급 - 컬렉션 조회 최적화, V1, V2, V3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
