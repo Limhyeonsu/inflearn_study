@@ -16,3 +16,7 @@ core 하위에 정리함
 ## [01. 실전! 스프링부트와 JPA 활용1](https://github.com/Limhyeonsu/inflearn_study/blob/main/jpashop/src/01.%20%EC%8B%A4%EC%A0%84!%20%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8%EC%99%80%20JPA%20%ED%99%9C%EC%9A%A91.md)
 * jpashop
 
+## [02. 실전! 스프링부트와 JPA 활용2](https://github.com/Limhyeonsu/inflearn_study/blob/main/jpashop/src/02.%EC%8B%A4%EC%A0%84!%20%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8%EC%99%80%20JPA%20%ED%99%9C%EC%9A%A92.md)
+
+## [03. 실전! 스프링 데이터 JPA]
+* data-jpa

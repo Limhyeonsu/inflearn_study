@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/core" />
+    <file type="web" url="file://$PROJECT_DIR$/data-jpa" />
     <file type="web" url="file://$PROJECT_DIR$/jpashop" />
     <file type="web" url="file://$PROJECT_DIR$/servlet" />
   </component>
