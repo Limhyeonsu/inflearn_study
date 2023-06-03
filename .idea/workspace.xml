@@ -4,14 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc03fbf9-52fa-49d5-9004-089f76634a50" name="Changes" comment="JPA 2편 - 스프링 데이터 JPA, Query dsl">
-      <change afterPath="$PROJECT_DIR$/data-jpa/src/03. 실전! 스프링 데이터 JPA.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-jpa/src/main/java/study/datajpa/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="dc03fbf9-52fa-49d5-9004-089f76634a50" name="Changes" comment="스프링 데이터 JPA(1) - 환경세팅">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/data-jpa.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-jpa/src/main/java/study/datajpa/entitiy/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-jpa/src/main/java/study/datajpa/entitiy/Member2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-jpa/src/main/java/study/datajpa/entitiy/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-jpa/src/main/java/study/datajpa/repository/MemberJpaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-jpa/src/main/java/study/datajpa/repository/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-jpa/src/test/java/study/datajpa/entity/MemberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-jpa/src/test/java/study/datajpa/repository/MemberJpaRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-jpa/src/test/java/study/datajpa/repository/MemberRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-jpa/src/03. 실전! 스프링 데이터 JPA.md" beforeDir="false" afterPath="$PROJECT_DIR$/data-jpa/src/03. 실전! 스프링 데이터 JPA.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,27 +46,26 @@
         <task path="$PROJECT_DIR$/jpashop">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/data-jpa">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="jpashop" type="f1a62948:ProjectNode" />
+                <item name="data-jpa" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="jpashop" type="f1a62948:ProjectNode" />
+                <item name="data-jpa" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="jpashop" type="f1a62948:ProjectNode" />
+                <item name="data-jpa" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="querydsl" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="servlet" type="f1a62948:ProjectNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -123,7 +127,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "Lombok",
-    "spring.configuration.checksum": "e4134cb890d6b92d410ade0f892fa3d6",
+    "spring.configuration.checksum": "856cdfbf41c238017e3edb99ec5ffd13",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -147,16 +151,19 @@
       <recent name="$PROJECT_DIR$/servlet/src" />
       <recent name="$PROJECT_DIR$/core/src" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="study.datajpa.repository" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="jpabook.jpashop.service" />
       <recent name="hello.core.discount" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.DataJpaApplication">
-    <configuration name="MemberServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.MemberTest.testEntity">
+    <configuration name="MemberJpaRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/jpashop" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/data-jpa" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
@@ -166,7 +173,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;jpabook.jpashop.service.MemberServiceTest&quot;" />
+            <option value="&quot;study.datajpa.repository.MemberJpaRepositoryTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -174,13 +181,13 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>false</ForceTestExec>
+      <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="OrderServiceTest.상품주문" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MemberJpaRepositoryTest.testMember" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/jpashop" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/data-jpa" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
@@ -190,7 +197,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;jpabook.jpashop.service.OrderServiceTest.상품주문&quot;" />
+            <option value="&quot;study.datajpa.repository.MemberJpaRepositoryTest.testMember&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -198,7 +205,31 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>false</ForceTestExec>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="MemberTest.testEntity" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/data-jpa" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;study.datajpa.entity.MemberTest.testEntity&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
     <configuration name="OrderServiceTest.주문취소" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -224,34 +255,10 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="OrderServiceTest.상품주문_재고수량초과" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="data-jpa [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/jpashop" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;jpabook.jpashop.service.OrderServiceTest.상품주문_재고수량초과&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>false</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="jpashop [cleanQuerydslSourcesDir]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/jpashop" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/data-jpa" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -259,7 +266,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="cleanQuerydslSourcesDir" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -330,11 +337,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.jpashop [cleanQuerydslSourcesDir]" />
+      <item itemvalue="Gradle.MemberJpaRepositoryTest" />
+      <item itemvalue="Gradle.MemberJpaRepositoryTest.testMember" />
+      <item itemvalue="Gradle.MemberTest.testEntity" />
+      <item itemvalue="Gradle.data-jpa [build]" />
       <item itemvalue="Gradle.jpashop [initQuerydslSourcesDir]" />
-      <item itemvalue="Gradle.OrderServiceTest.상품주문" />
-      <item itemvalue="Gradle.OrderServiceTest.상품주문_재고수량초과" />
-      <item itemvalue="Gradle.MemberServiceTest" />
       <item itemvalue="Spring Boot.DataJpaApplication" />
       <item itemvalue="Spring Boot.JpashopApplication (1)" />
       <item itemvalue="Spring Boot.JpashopApplication" />
@@ -343,11 +350,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MemberTest.testEntity" />
+        <item itemvalue="Gradle.data-jpa [build]" />
+        <item itemvalue="Gradle.MemberJpaRepositoryTest.testMember" />
+        <item itemvalue="Gradle.MemberJpaRepositoryTest" />
         <item itemvalue="Gradle.jpashop [initQuerydslSourcesDir]" />
-        <item itemvalue="Gradle.jpashop [cleanQuerydslSourcesDir]" />
-        <item itemvalue="Gradle.OrderServiceTest.상품주문_재고수량초과" />
-        <item itemvalue="Gradle.OrderServiceTest.상품주문" />
-        <item itemvalue="Gradle.MemberServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -399,7 +406,8 @@
       <workItem from="1680261817658" duration="266000" />
       <workItem from="1682346334304" duration="1736000" />
       <workItem from="1682431099442" duration="8000" />
-      <workItem from="1682516013128" duration="1871000" />
+      <workItem from="1682516013128" duration="3401000" />
+      <workItem from="1685807137076" duration="4090000" />
     </task>
     <task id="LOCAL-00001" summary="스프링 핵심 원리 이해 2 - 객체지향 원리 적용 (SRP, DIP, OCP)">
       <created>1663926512408</created>
@@ -723,7 +731,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682348063778</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="스프링 데이터 JPA(1) - 환경세팅">
+      <created>1682518431355</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1682518431355</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -741,7 +756,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="링크 경로 수정&#10;- 이미지 엑박 뜨는 현상으로 인하여 md 파일 위치를 core/src/ 밑으로 이동시킴에 따라 링크 경로 수정" />
     <MESSAGE value="img 엑박 수정 &gt; 경로 수정 누락부분이 있어 수정함" />
     <MESSAGE value="스프링 MVC 1편 - 웹서버, WAS, 서블릿" />
     <MESSAGE value="스프링 MVC 1편 - 멀티 쓰레드, HTML, HTTP API, 백엔드 기술의 역사" />
@@ -766,7 +780,8 @@
     <MESSAGE value="JPA 2편 - API 개발 고급 - V4" />
     <MESSAGE value="JPA 2편 - API 개발 고급 - V5, V6" />
     <MESSAGE value="JPA 2편 - 스프링 데이터 JPA, Query dsl" />
-    <option name="LAST_COMMIT_MESSAGE" value="JPA 2편 - 스프링 데이터 JPA, Query dsl" />
+    <MESSAGE value="스프링 데이터 JPA(1) - 환경세팅" />
+    <option name="LAST_COMMIT_MESSAGE" value="스프링 데이터 JPA(1) - 환경세팅" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
