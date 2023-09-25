@@ -6,6 +6,20 @@
     <file type="web" url="file://$PROJECT_DIR$/data-jpa" />
     <file type="web" url="file://$PROJECT_DIR$/jpashop" />
     <file type="web" url="file://$PROJECT_DIR$/servlet" />
+    <file type="web" url="file://$PROJECT_DIR$/springdatademo" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/core/springdatademo/pom.xml" />
+        <option value="$PROJECT_DIR$/springdatademo/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/core/springdatademo/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="corretto-17" project-jdk-type="JavaSDK" />
 </project>
