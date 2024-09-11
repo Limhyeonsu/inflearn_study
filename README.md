@@ -12,6 +12,8 @@ core 하위에 정리함
 
 ### 05. 김영한 - 스프링 MVC 2편 - 백엔드 웹 개발 활용 기술
 
+### [06. 김영한 - 스프링 핵심원리 고급편](https://github.com/Limhyeonsu/inflearn_study/blob/main/%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%95%B5%EC%8B%AC%20%EC%9B%90%EB%A6%AC(%EA%B3%A0%EA%B8%89%ED%8E%B8)/%EC%A0%95%EB%A6%AC.md)
+
 # JPA
 ### [01. 김영한 - 실전! 스프링부트와 JPA 활용1](https://github.com/Limhyeonsu/inflearn_study/blob/main/jpashop/src/01.%20%EC%8B%A4%EC%A0%84!%20%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8%EC%99%80%20JPA%20%ED%99%9C%EC%9A%A91.md)
 * jpashop
@@ -22,5 +24,5 @@ core 하위에 정리함
 ### [03. 김영한 - 실전! 스프링 데이터 JPA](https://github.com/Limhyeonsu/inflearn_study/blob/main/data-jpa/src/03.%20%EC%8B%A4%EC%A0%84!%20%EC%8A%A4%ED%94%84%EB%A7%81%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20JPA.md)
 * data-jpa
 
-### 04. 백기선 - 스프링 데이터 JPA
+### [04. 백기선 - 스프링 데이터 JPA](https://github.com/Limhyeonsu/inflearn_study/blob/main/springdatademo/src/04.%20%EC%8A%A4%ED%94%84%EB%A7%81%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20JPA.md)
 * springdatademo
