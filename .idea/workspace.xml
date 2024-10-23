@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc03fbf9-52fa-49d5-9004-089f76634a50" name="Changes" comment="김영한) 스프링 핵심원리 고급편(1)-템플릿 메서드 패턴, 전략패턴, 템플릿 콜백 패턴, 프록시 패턴, 데코레이터 패턴">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/jpashop.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/jpashop.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/servlet.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/servlet.main.iml" afterDir="false" />
+    <list default="true" id="dc03fbf9-52fa-49d5-9004-089f76634a50" name="Changes" comment="백기선) 스프링 데이터 JPA(12)">
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/request/RequestBodyStringServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/request/RequestParamServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/webapp/basic/hello-form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdatademo/src/04. 스프링 데이터 JPA.md" beforeDir="false" afterPath="$PROJECT_DIR$/springdatademo/src/04. 스프링 데이터 JPA.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/04.스프링 MVC 1편 백엔드 웹 개발 활용 기술.md" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/04.스프링 MVC 1편 백엔드 웹 개발 활용 기술.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +60,11 @@
         <option value="JUnit5 Test Class" />
         <option value="spring-beans.schema" />
         <option value="AnnotationType" />
-        <option value="HTML File" />
         <option value="Enum" />
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -146,11 +144,11 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/servlet/src/main/webapp/basic" />
       <recent name="$PROJECT_DIR$/data-jpa/src/img" />
       <recent name="$PROJECT_DIR$/jpashop/src/main/resources/templates/fragments" />
       <recent name="$PROJECT_DIR$/jpashop/src/img" />
       <recent name="$PROJECT_DIR$/servlet/src/main/resources/static" />
-      <recent name="$PROJECT_DIR$/servlet/src" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="study.datajpa.repository" />
@@ -158,6 +156,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="jpabook.jpashop.service" />
       <recent name="hello.core.discount" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hello.servlet.basic.request" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -423,6 +424,19 @@
       <workItem from="1695734908173" duration="82000" />
       <workItem from="1726066897001" duration="262000" />
       <workItem from="1726067165927" duration="8892000" />
+      <workItem from="1726324982283" duration="732000" />
+      <workItem from="1726398276112" duration="896000" />
+      <workItem from="1726399807121" duration="282000" />
+      <workItem from="1726400094549" duration="1235000" />
+      <workItem from="1726415196890" duration="1897000" />
+      <workItem from="1727161618341" duration="4649000" />
+      <workItem from="1727247052122" duration="2010000" />
+      <workItem from="1727681684301" duration="7152000" />
+      <workItem from="1727859557635" duration="24413000" />
+      <workItem from="1728394941849" duration="7193000" />
+      <workItem from="1728652695728" duration="3835000" />
+      <workItem from="1728702840124" duration="6425000" />
+      <workItem from="1729584944150" duration="3201000" />
     </task>
     <task id="LOCAL-00002" summary="테스트 케이스 경로 이동">
       <created>1664112822289</created>
@@ -767,7 +781,7 @@
       <option name="project" value="LOCAL" />
       <updated>1686240403849</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -785,21 +799,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="JPA 1편 - JPA와 DB설정, 동작확인" />
-    <MESSAGE value="내용 수정" />
-    <MESSAGE value="JPA 1편 - 도메인 모델과 테이블 설계, 엔티티 설계 및 개발" />
-    <MESSAGE value="JPA 1편 - 엔티티 설계시 주의사항" />
-    <MESSAGE value="JPA 1편 - 회원 도메인 개발" />
-    <MESSAGE value="JPA 1편 - 상품 도메인 개발, 주문 도메인 개발(주문, 주문상품 엔티티 개발)" />
-    <MESSAGE value="JPA 1편 - 주문 도메인 개발(주문 리포지토리, 서비스, 테스트)" />
-    <MESSAGE value="JPA 1편 - 주문 검색 기능 개발" />
-    <MESSAGE value="JPA 1편 - 웹계층 개발(홈화면, 회원등록, 회원 목록)" />
-    <MESSAGE value="JPA 1편 - 웹계층 개발(상품)" />
-    <MESSAGE value="JPA 1편 - 변경 감지와 병합, 주문" />
-    <MESSAGE value="JPA 2편 - API 개발 기본" />
-    <MESSAGE value="JPA 2편 - API 개발 고급 : 간단한 주문조회 V1 엔티티 직접 노출" />
-    <MESSAGE value="JPA 2편 - API 개발 고급 : 간단한 주문조회 V2~V4" />
-    <MESSAGE value="JPA 2편 - API 개발 고급 - 컬렉션 조회 최적화, V1, V2, V3" />
     <MESSAGE value="JPA 2편 - API 개발 고급 - V4" />
     <MESSAGE value="JPA 2편 - API 개발 고급 - V5, V6" />
     <MESSAGE value="JPA 2편 - 스프링 데이터 JPA, Query dsl" />
@@ -810,7 +809,22 @@
     <MESSAGE value="프로젝트 세팅 오류로 인한 파일 삭제" />
     <MESSAGE value="김영한) 스프링 핵심원리 고급편(1)-템플릿 메서드 패턴, 전략패턴, 템플릿 콜백 패턴, 프록시 패턴, 데코레이터 패턴" />
     <MESSAGE value="mod readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="mod readme" />
+    <MESSAGE value="김영한) 스프링 핵심원리 고급편(2)-리플렉션, 동적 프록시, 프록시 팩토리, 빈 후처리기" />
+    <MESSAGE value="add" />
+    <MESSAGE value="김영한) 스프링 핵심원리 고급편()-AOP, 스프링 AOP 주의사항" />
+    <MESSAGE value="백기선) 스프링 데이터 JPA(1) - 1부 핵심 개념 이해" />
+    <MESSAGE value="백기선) 스프링 데이터 JPA(2) - 스프링데이터 Common1" />
+    <MESSAGE value="백기선) 스프링 데이터 JPA(3) - 스프링데이터 쿼리만들기" />
+    <MESSAGE value="백기선) 스프링 데이터 JPA(4)" />
+    <MESSAGE value="백기선) 스프링 데이터 JPA(5)" />
+    <MESSAGE value="백기선) 스프링 데이터 JPA(6)" />
+    <MESSAGE value="백기선) 스프링 데이터 JPA(7) - QueryDSL" />
+    <MESSAGE value="백기선) 스프링 데이터 JPA(8) - 스프링데이터 Common END" />
+    <MESSAGE value="백기선) 스프링 데이터 JPA(9)" />
+    <MESSAGE value="백기선) 스프링 데이터 JPA(10)" />
+    <MESSAGE value="백기선) 스프링 데이터 JPA(11)" />
+    <MESSAGE value="백기선) 스프링 데이터 JPA(12)" />
+    <option name="LAST_COMMIT_MESSAGE" value="백기선) 스프링 데이터 JPA(12)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
