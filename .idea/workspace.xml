@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc03fbf9-52fa-49d5-9004-089f76634a50" name="Changes" comment="백기선) 스프링 데이터 JPA(12)">
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/request/RequestBodyStringServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/request/RequestParamServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/webapp/basic/hello-form.html" afterDir="false" />
+    <list default="true" id="dc03fbf9-52fa-49d5-9004-089f76634a50" name="Changes" comment="스프링 데이터 MVC 1편 - HTTP 요청데이터(1)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/04.스프링 MVC 1편 백엔드 웹 개발 활용 기술.md" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/04.스프링 MVC 1편 백엔드 웹 개발 활용 기술.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -360,8 +356,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
       </set>
     </attachedChunks>
   </component>
@@ -436,7 +432,9 @@
       <workItem from="1728394941849" duration="7193000" />
       <workItem from="1728652695728" duration="3835000" />
       <workItem from="1728702840124" duration="6425000" />
-      <workItem from="1729584944150" duration="3201000" />
+      <workItem from="1729584944150" duration="3843000" />
+      <workItem from="1729697855845" duration="2000" />
+      <workItem from="1729697963576" duration="625000" />
     </task>
     <task id="LOCAL-00002" summary="테스트 케이스 경로 이동">
       <created>1664112822289</created>
@@ -781,7 +779,7 @@
       <option name="project" value="LOCAL" />
       <updated>1686240403849</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -799,7 +797,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="JPA 2편 - API 개발 고급 - V4" />
     <MESSAGE value="JPA 2편 - API 개발 고급 - V5, V6" />
     <MESSAGE value="JPA 2편 - 스프링 데이터 JPA, Query dsl" />
     <MESSAGE value="스프링 데이터 JPA(1) - 환경세팅" />
@@ -824,7 +821,8 @@
     <MESSAGE value="백기선) 스프링 데이터 JPA(10)" />
     <MESSAGE value="백기선) 스프링 데이터 JPA(11)" />
     <MESSAGE value="백기선) 스프링 데이터 JPA(12)" />
-    <option name="LAST_COMMIT_MESSAGE" value="백기선) 스프링 데이터 JPA(12)" />
+    <MESSAGE value="스프링 데이터 MVC 1편 - HTTP 요청데이터(1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="스프링 데이터 MVC 1편 - HTTP 요청데이터(1)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
