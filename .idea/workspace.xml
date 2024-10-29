@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc03fbf9-52fa-49d5-9004-089f76634a50" name="Changes" comment="스프링 데이터 MVC 1편 - HTTP 응답데이터">
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/domain/member/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/domain/member/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/servlet/MemberFormServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/servlet/MemberListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/servlet/MemberSaveServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/test/java/hello/servlet/domain/member/MemberRepositoryTest.java" afterDir="false" />
+    <list default="true" id="dc03fbf9-52fa-49d5-9004-089f76634a50" name="Changes" comment="스프링 데이터 MVC 1편 - 서블릿">
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/webapp/jsp/member/new-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/webapp/jsp/member/save.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/webapp/jsp/members.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servlet/src/04.스프링 MVC 1편 백엔드 웹 개발 활용 기술.md" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/04.스프링 MVC 1편 백엔드 웹 개발 활용 기술.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +67,7 @@
         <option value="Interface" />
         <option value="Class" />
         <option value="HTML File" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -99,41 +98,41 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Gradle.MemberRepositoryTest.save.executor": "Run",
-    "LombokPluginIS_LOMBOK_JPS_FIX_ENABLED": "true",
-    "LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/dlagustn720/Documents/programming/inflearn",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.42873564",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "spring.configuration.checksum": "856cdfbf41c238017e3edb99ec5ffd13",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Gradle.MemberRepositoryTest.save.executor&quot;: &quot;Run&quot;,
+    &quot;LombokPluginIS_LOMBOK_JPS_FIX_ENABLED&quot;: &quot;true&quot;,
+    &quot;LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dlagustn720/Documents/programming/inflearn&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.42873564&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;856cdfbf41c238017e3edb99ec5ffd13&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="jpabook.jpashop.api" />
@@ -446,7 +445,9 @@
       <workItem from="1729697855845" duration="2000" />
       <workItem from="1729697963576" duration="625000" />
       <workItem from="1729950561282" duration="2714000" />
-      <workItem from="1730112154989" duration="3144000" />
+      <workItem from="1730112154989" duration="3272000" />
+      <workItem from="1730193245413" duration="789000" />
+      <workItem from="1730194044673" duration="1565000" />
     </task>
     <task id="LOCAL-00002" summary="테스트 케이스 경로 이동">
       <created>1664112822289</created>
@@ -791,7 +792,7 @@
       <option name="project" value="LOCAL" />
       <updated>1686240403849</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -809,7 +810,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="JPA 2편 - 스프링 데이터 JPA, Query dsl" />
     <MESSAGE value="스프링 데이터 JPA(1) - 환경세팅" />
     <MESSAGE value="스프링 데이터 JPA - 예제 도메인 모델" />
     <MESSAGE value="스프링 데이터 JPA - 공통 인터페이스 기능" />
@@ -834,7 +834,8 @@
     <MESSAGE value="백기선) 스프링 데이터 JPA(12)" />
     <MESSAGE value="스프링 데이터 MVC 1편 - HTTP 요청데이터(1)" />
     <MESSAGE value="스프링 데이터 MVC 1편 - HTTP 응답데이터" />
-    <option name="LAST_COMMIT_MESSAGE" value="스프링 데이터 MVC 1편 - HTTP 응답데이터" />
+    <MESSAGE value="스프링 데이터 MVC 1편 - 서블릿" />
+    <option name="LAST_COMMIT_MESSAGE" value="스프링 데이터 MVC 1편 - 서블릿" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
