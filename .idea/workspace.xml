@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc03fbf9-52fa-49d5-9004-089f76634a50" name="Changes" comment="스프링 데이터 MVC 1편 - 서블릿">
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/webapp/jsp/member/new-form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/webapp/jsp/member/save.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/webapp/jsp/members.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="dc03fbf9-52fa-49d5-9004-089f76634a50" name="Changes" comment="스프링 데이터 MVC 1편 - JSP">
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/servletmvc/MvcMemberFormServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/servletmvc/MvcMemberListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/servletmvc/MvcMemberSaveServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/webapp/WEB-INF/views/members.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/webapp/WEB-INF/views/new-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/webapp/WEB-INF/views/save-result.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servlet/src/04.스프링 MVC 1편 백엔드 웹 개발 활용 기술.md" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/04.스프링 MVC 1편 백엔드 웹 개발 활용 기술.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,8 +66,8 @@
         <option value="Enum" />
         <option value="JUnit4 Test Class" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
         <option value="Jsp File" />
       </list>
     </option>
@@ -147,11 +148,11 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/servlet/src/main/webapp/WEB-INF" />
       <recent name="$PROJECT_DIR$/servlet/src/main/webapp/basic" />
       <recent name="$PROJECT_DIR$/data-jpa/src/img" />
       <recent name="$PROJECT_DIR$/jpashop/src/main/resources/templates/fragments" />
       <recent name="$PROJECT_DIR$/jpashop/src/img" />
-      <recent name="$PROJECT_DIR$/servlet/src/main/resources/static" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="study.datajpa.repository" />
@@ -161,6 +162,7 @@
       <recent name="hello.core.discount" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hello.servlet.web.servletmvc" />
       <recent name="hello.servlet.web.servlet" />
       <recent name="hello.servlet.basic.response" />
       <recent name="hello.servlet.basic.request" />
@@ -447,7 +449,8 @@
       <workItem from="1729950561282" duration="2714000" />
       <workItem from="1730112154989" duration="3272000" />
       <workItem from="1730193245413" duration="789000" />
-      <workItem from="1730194044673" duration="1565000" />
+      <workItem from="1730194044673" duration="2393000" />
+      <workItem from="1730468061902" duration="1882000" />
     </task>
     <task id="LOCAL-00002" summary="테스트 케이스 경로 이동">
       <created>1664112822289</created>
@@ -792,7 +795,7 @@
       <option name="project" value="LOCAL" />
       <updated>1686240403849</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -810,7 +813,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="스프링 데이터 JPA(1) - 환경세팅" />
     <MESSAGE value="스프링 데이터 JPA - 예제 도메인 모델" />
     <MESSAGE value="스프링 데이터 JPA - 공통 인터페이스 기능" />
     <MESSAGE value="백기선) 스프링 데이터 JPA - 6. 프로젝트 세팅(1) [프로젝트 생성]" />
@@ -835,7 +837,8 @@
     <MESSAGE value="스프링 데이터 MVC 1편 - HTTP 요청데이터(1)" />
     <MESSAGE value="스프링 데이터 MVC 1편 - HTTP 응답데이터" />
     <MESSAGE value="스프링 데이터 MVC 1편 - 서블릿" />
-    <option name="LAST_COMMIT_MESSAGE" value="스프링 데이터 MVC 1편 - 서블릿" />
+    <MESSAGE value="스프링 데이터 MVC 1편 - JSP" />
+    <option name="LAST_COMMIT_MESSAGE" value="스프링 데이터 MVC 1편 - JSP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
