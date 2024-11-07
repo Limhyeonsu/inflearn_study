@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc03fbf9-52fa-49d5-9004-089f76634a50" name="Changes" comment="스프링 데이터 MVC 1편 - JSP">
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/servletmvc/MvcMemberFormServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/servletmvc/MvcMemberListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/servletmvc/MvcMemberSaveServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/webapp/WEB-INF/views/members.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/webapp/WEB-INF/views/new-form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/webapp/WEB-INF/views/save-result.jsp" afterDir="false" />
+    <list default="true" id="dc03fbf9-52fa-49d5-9004-089f76634a50" name="Changes" comment="스프링 데이터 MVC 1편 - 프론트 컨트롤러(3)">
+      <change afterPath="$PROJECT_DIR$/servlet/src/img/어댑터패턴.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v5/FrontControllerServletV5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v5/MyHandlerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v5/adapter/ControllerV3HandlerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v5/adapter/ControllerV4HandlerAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servlet/src/04.스프링 MVC 1편 백엔드 웹 개발 활용 기술.md" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/04.스프링 MVC 1편 백엔드 웹 개발 활용 기술.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v3/FrontControllerServletV3.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v3/FrontControllerServletV3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v4/FrontControllerServletV4.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/frontcontroller/v4/FrontControllerServletV4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,10 +66,10 @@
         <option value="AnnotationType" />
         <option value="Enum" />
         <option value="JUnit4 Test Class" />
-        <option value="Interface" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -148,11 +149,11 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/servlet/src/img" />
+      <recent name="$PROJECT_DIR$/servlet/src" />
       <recent name="$PROJECT_DIR$/servlet/src/main/webapp/WEB-INF" />
       <recent name="$PROJECT_DIR$/servlet/src/main/webapp/basic" />
       <recent name="$PROJECT_DIR$/data-jpa/src/img" />
-      <recent name="$PROJECT_DIR$/jpashop/src/main/resources/templates/fragments" />
-      <recent name="$PROJECT_DIR$/jpashop/src/img" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="study.datajpa.repository" />
@@ -162,10 +163,11 @@
       <recent name="hello.core.discount" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="hello.servlet.web.servletmvc" />
-      <recent name="hello.servlet.web.servlet" />
-      <recent name="hello.servlet.basic.response" />
-      <recent name="hello.servlet.basic.request" />
+      <recent name="hello.servlet.web.frontcontroller.v5.adapter" />
+      <recent name="hello.servlet.web.frontcontroller.v4" />
+      <recent name="hello.servlet.web.frontcontroller.v4.controller" />
+      <recent name="hello.servlet.web.frontcontroller.v3" />
+      <recent name="hello.servlet.web.frontcontroller.v3.controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -450,7 +452,11 @@
       <workItem from="1730112154989" duration="3272000" />
       <workItem from="1730193245413" duration="789000" />
       <workItem from="1730194044673" duration="2393000" />
-      <workItem from="1730468061902" duration="1882000" />
+      <workItem from="1730468061902" duration="2044000" />
+      <workItem from="1730626074115" duration="907000" />
+      <workItem from="1730805284208" duration="2190000" />
+      <workItem from="1730813944483" duration="5796000" />
+      <workItem from="1730986410331" duration="2230000" />
     </task>
     <task id="LOCAL-00002" summary="테스트 케이스 경로 이동">
       <created>1664112822289</created>
@@ -795,7 +801,7 @@
       <option name="project" value="LOCAL" />
       <updated>1686240403849</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -813,10 +819,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="스프링 데이터 JPA - 예제 도메인 모델" />
-    <MESSAGE value="스프링 데이터 JPA - 공통 인터페이스 기능" />
-    <MESSAGE value="백기선) 스프링 데이터 JPA - 6. 프로젝트 세팅(1) [프로젝트 생성]" />
-    <MESSAGE value="프로젝트 세팅 오류로 인한 파일 삭제" />
     <MESSAGE value="김영한) 스프링 핵심원리 고급편(1)-템플릿 메서드 패턴, 전략패턴, 템플릿 콜백 패턴, 프록시 패턴, 데코레이터 패턴" />
     <MESSAGE value="mod readme" />
     <MESSAGE value="김영한) 스프링 핵심원리 고급편(2)-리플렉션, 동적 프록시, 프록시 팩토리, 빈 후처리기" />
@@ -838,7 +840,11 @@
     <MESSAGE value="스프링 데이터 MVC 1편 - HTTP 응답데이터" />
     <MESSAGE value="스프링 데이터 MVC 1편 - 서블릿" />
     <MESSAGE value="스프링 데이터 MVC 1편 - JSP" />
-    <option name="LAST_COMMIT_MESSAGE" value="스프링 데이터 MVC 1편 - JSP" />
+    <MESSAGE value="스프링 데이터 MVC 1편 - MVC 패턴" />
+    <MESSAGE value="스프링 데이터 MVC 1편 - 프론트 컨트롤러(1)" />
+    <MESSAGE value="스프링 데이터 MVC 1편 - 프론트 컨트롤러(2)" />
+    <MESSAGE value="스프링 데이터 MVC 1편 - 프론트 컨트롤러(3)" />
+    <option name="LAST_COMMIT_MESSAGE" value="스프링 데이터 MVC 1편 - 프론트 컨트롤러(3)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
